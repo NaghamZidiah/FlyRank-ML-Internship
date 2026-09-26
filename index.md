@@ -167,6 +167,10 @@ Therefore, under this time-aware validation design, the log transformation did *
 
 This is an observed comparison for the selected March 2026 sample and validation window. It does not establish that the baseline will always outperform the transformed representation on other datasets or periods.
 
+### Baseline vs ML-08 silhouette comparison
+
+![Baseline vs ML-08 on the same time-aware test split](charts/baseline_vs_model.png)
+
 ### 4.2 Baseline cluster profiles
 
 The baseline produced three observable profiles on the held-out test period.
@@ -204,6 +208,10 @@ The held-out baseline test observations were distributed as follows:
 |       2 |               424 |
 
 The cluster sizes are uneven. This is important when interpreting the profiles because Cluster 2 represents a relatively small subset of the held-out observations.
+
+### Baseline test cluster distribution
+
+![Baseline test cluster distribution](charts/cluster_distribution.png)
 
 ---
 
