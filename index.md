@@ -271,9 +271,11 @@ The cluster should not be interpreted as proof of a causal ranking advantage.
 
 ## 7. Reproducibility and Artifacts
 
-The analysis is implemented in the capstone notebook:
+The analysis can be reproduced from the committed notebook and repository.
 
-`work/notebooks/capstone.ipynb`
+- [GitHub repository](https://github.com/NaghamZidiah/FlyRank-ML-Internship)
+- [Capstone notebook](work/notebooks/capstone.ipynb)
+- Data access: the gated FlyRank warehouse release described in the internship materials.
 
 The notebook contains the data selection, feature construction, time-aware split, scaling, baseline clustering, ML-08 clustering, evaluation, cluster profiles, recommendations, and paper artifacts.
 
@@ -283,6 +285,7 @@ The notebook contains the data selection, feature construction, time-aware split
 * Sample size: 100,000 observations
 * Training period: March 1–24, 2026
 * Test period: March 25–31, 2026
+* Time-aware split date: March 25, 2026
 * Number of clusters: 3
 * Random seed: 42
 * K-Means `n_init`: 10
@@ -294,12 +297,12 @@ The paper embeds or is based on the following artifacts from the notebook:
 
 1. Baseline vs ML-08 comparison table.
 2. Baseline cluster profile table.
-3. Baseline test cluster distribution.
+3. Baseline test cluster distribution table.
 4. Ranked action playbook.
 5. Baseline vs ML-08 silhouette comparison chart.
+6. Baseline test cluster distribution chart.
 
 These artifacts are intended to make the measured comparison and recommendations transparent and reproducible.
-
 ---
 
 ## 8. Conclusion
@@ -316,6 +319,6 @@ The main practical takeaway is therefore not that one clustering representation 
 
 ## Acknowledgments and Data Credit
 
-Built on the FlyRank ML Internship dataset.
+Built on the [FlyRank ML Internship dataset](https://flyrank.ai).
 
 This work was completed as part of the FlyRank Machine Learning Internship and uses the internship warehouse provided for the program.
